@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    s
+    <link rel="stylesheet" href="style.css" />
+    <title>Palak's Magic– Salon & Studio</title>
+    section { padding: 3.5rem 1rem;
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav>
+      <div class="nav-inner">
+        <div class="logo">Palak's Magic<span>Salon & Studio</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#instructions">Instructions</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#booking" class="nav-btn nav-btn-wrap">Book Now</a>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home" onclick="closeMenu()">Home</a>
+      <a href="#about" onclick="closeMenu()">About</a>
+      <a href="#services" onclick="closeMenu()">Services</a>
+      <a href="#instructions" onclick="closeMenu()">Instructions</a>
+      <a href="#gallery" onclick="closeMenu()">Gallery</a>
+      <a href="#testimonials" onclick="closeMenu()">Reviews</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+      <a
+        href="#booking"
+        onclick="closeMenu()"
+        style="color: var(--gold); font-weight: 700; margin-top: 0.5rem"
+        >Book Appointment</a
+      >
+    </div>
+
+    <!-- HERO -->
+    <section id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="hero-tag"
+          >✦ Welcome to Palak's Magic Studio, Prayagraj</span
+        >
+        <h1 class="hero-title">
+          Style, Beauty &<br /><em>Confidence</em> — Redefined
+        </h1>
+        <p class="hero-sub">
+          Where artistry meets elegance. Experience world-class hair, makeup,
+          and skincare services crafted just for you.
+        </p>
+        <div class="hero-btns">
+          <a href="#booking" class="btn-gold">Book Appointment</a>
+          <a href="#services" class="btn-outline">Our Services</a>
+        </div>
+        <div class="hero-divider">
+          <span></span>
+          <p>Trusted since Day One</p>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+      <div class="stats-inner">
+        <div>
+          <div class="stat-num">500+</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div>
+          <div class="stat-num">8+</div>
+          <div class="stat-label">Expert Services</div>
+        </div>
+        <div>
+          <div class="stat-num">5★</div>
+          <div class="stat-label">Avg Rating</div>
+        </div>
+        <div>
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Satisfaction</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="two-col">
+          
+          <div class="reveal" style="animation-delay: 0.2s">
+            <div class="gallery-item">
+            <img src="owner.jpeg" alt="Gallery Photo 1" loading="lazy" />
+          </div>
+            <span class="section-tag">✦ Our Story</span>
+            <h2 class="section-title">Where Beauty  Meets The magic</h2>
+            <div class="gold-line"></div>
+            <p class="section-sub" style="margin-bottom: 1.5rem">
+              Palak's Magic is a premier salon and studio nestled in the heart
+              of Vishanpuri, Prayagraj. We are passionate about helping every
+              client look and feel their absolute best — through precision cuts,
+              radiant makeup, and rejuvenating skincare treatments.
+            </p>
+            <p class="section-sub">
+              Professional bridal makeup artist certified by <em><strong>parul Garg , Sakshi and Himanshu Gupta & Iza Setia.</strong></em>
+            </p>
+            <div class="value-list">
+              <div class="value-item">
+                <div class="value-icon">✦</div>
+                <div class="value-text">
+                  <h4>Expert Professionals</h4>
+                  <p>
+                    Trained artists who listen, understand, and deliver your
+                    vision.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">✦</div>
+                <div class="value-text">
+                  <h4>Premium Products</h4>
+                  <p>
+                    We use only high-quality, skin-safe products for every
+                    service.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <div class="value-icon">✦</div>
+                <div class="value-text">
+                  <h4>Welcoming Atmosphere</h4>
+                  <p>
+                    A clean, comfortable, and luxurious studio experience every
+                    time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+      <div class="section-inner">
+        <div class="services-header">
+          <span class="section-tag">✦ Our Menu</span>
+          <h2 class="section-title">Premium Services & Pricing</h2>
+          <div class="gold-line center"></div>
+        </div>
+
+        <div class="services-menu-container">
+          <!-- Bridal -->
+          <div class="services-category">
+            <h2 class="category-title">Bridal Makeup</h2>
+
+    <div class="service-item-row">
+      <span>Palak’s Signature Bridal Makeup</span>
+      <span>15000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Engagement Makeup</span>
+      <span>11000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>HD Reception Makeup</span>
+      <span>10000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>HD Party Makeup</span>
+      <span>6000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Advance Makeup</span>
+      <span>4000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Basic Makeup</span>
+      <span>2000/-</span>
+    </div>
+  </div>
+
+
+  <!-- Nails -->
+  <div class="services-category">
+    <h2 class="category-title">Nail Services</h2>
+
+    <div class="service-item-row">
+      <span>Gel Nail Paint (Hands)</span>
+      <span>500/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Gel Nail Paint (Feet)</span>
+      <span>800/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Glitter Nails (Hands)</span>
+      <span>600/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Glitter Nails (Feet)</span>
+      <span>800/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Ombre Nails (Hands)</span>
+      <span>700/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Ombre Nails (Feet)</span>
+      <span>1000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Cateye Nails (Hands)</span>
+      <span>900/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Cateye Nails (Feet)</span>
+      <span>1200/-</span>
+    </div>
+  </div>
+
+
+  <!-- Waxing -->
+  <div class="services-category">
+    <h2 class="category-title">Waxing Services</h2>
+
+    <div class="service-item-row">
+      <span>Rica Wax - Half Hands</span>
+      <span>300/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Rica Wax - Full Hands</span>
+      <span>500/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Rica Wax - Underarms</span>
+      <span>200/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Rica Wax - Full Body</span>
+      <span>3000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Honey Wax - Full Body</span>
+      <span>2000/-</span>
+    </div>
+  </div>
+
+
+  <!-- Facials -->
+  <div class="services-category">
+    <h2 class="category-title">Facials & Cleanup</h2>
+
+    <div class="service-item-row">
+      <span>Fruit Cleanup</span>
+      <span>500/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>VLCC Cleanup</span>
+      <span>700/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Lotus Cleanup</span>
+      <span>800/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>O3 Facial</span>
+      <span>2000/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Korean Facial</span>
+      <span>2500/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Casmara Facial</span>
+      <span>4000/-</span>
+    </div>
+  </div>
+
+
+  <!-- Hair -->
+  <div class="services-category">
+    <h2 class="category-title">Hair Services</h2>
+
+    <div class="service-item-row">
+      <span>Haircut (Basic)</span>
+      <span>200/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Advance Haircut</span>
+      <span>500/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Blow Dry</span>
+      <span>500/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Straightening</span>
+      <span>800/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Hair Spa</span>
+      <span>800/-</span>
+    </div>
+
+    <div class="service-item-row">
+      <span>Keratin Treatment</span>
+      <span>3000/-</span>
+    </div>
+  </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- INSTRUCTIONS -->
+    <section id="instructions" class="bridal-instructions">
+      <div class="section-inner">
+        <div class="instructions-header">
+          <span class="section-tag">✦ Guidelines</span>
+          <h2 class="section-title" style="color: var(--white)">Bridal Instructions</h2>
+          <div class="gold-line center"></div>
+        </div>
+        
+        <div class="instructions-content-card">
+          <ul class="instructions-list">
+    <li>Balance payment to be cleared either before or on the day of the makeup application, prior to the service beginning</li>
+
+    <li>The original flowers carried by the brides</li>
+
+    <li>An extra charge applies to hair extensions, hair accessories like artificial flowers, any other accessories</li>
+
+    <li>Bride timing at 1pm at studio. If you are late, it’s not our responsibility</li>
+
+    <li>No childrens are allowed to the studio</li>
+
+    <li>No outside food is allowed</li>
+
+    <li>Keep your belongings at your own risk</li>
+
+    <li>No cameraman allowed</li>
+          </ul>
+
+          <div class="instructions-footer">
+            <p class="contact">
+              Call or WhatsApp - <strong>9555693813</strong>
+            </p>
+            <p class="address">
+              Palak’s Magic Makeup Studio <br />
+              Infront of Gurudwara Durga Puja Park, Preetam Nagar, Prayagraj
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- GALLERY -->
+    <section id="gallery">
+      <div class="section-inner">
+        <span class="section-tag reveal">✦ Our Work</span>
+        <h2 class="section-title reveal">Gallery of Transformations</h2>
+        <div class="gold-line reveal"></div>
+        <p class="gallery-sub reveal">
+          A glimpse of the magic created at Palak's Magic Studio.
+        </p>
+        <div class="gallery-grid reveal">
+          <div class="gallery-grid">
+  <div class="gallery-item tall">
+    <img src="imag1.jpeg" alt="Bridal Hairstyle" />
+  </div>
+
+  <div class="gallery-item">
+    <img src="img2.jpg" alt="Nail Art Design" />
+  </div>
+
+  <div class="gallery-item">
+    <img src="img3.jpeg" alt="Nail Art Closeup" />
+  </div>
+
+  <div class="gallery-item">
+    <img src="img4.jpeg" alt="Bridal Makeup" />
+  </div>
+
+  <div class="gallery-item wide">
+    <img src="img5.jpeg" alt="HD Makeup Look" />
+  </div>
+   <div class="gallery-item tall">
+    <img src="img6.jpeg" alt="Bridal Hairstyle" />
+  </div>
+
+  <div class="gallery-item">
+    <img src="img7.jpeg" alt="Nail Art Design" />
+  </div>
+  <div class="gallery-item">
+    <img src="img9.jpeg" alt="Bridal Makeup" />
+  </div>
+
+  <div class="gallery-item wide">
+    <img src="img10.jpeg" alt="HD Makeup Look" />
+  </div>
+  <div class="gallery-item">
+    <img src="IMG_0246.MOV" alt="Bridal Makeup" />
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+      <div class="section-inner">
+        <div class="testimonials-header reveal">
+          <span class="section-tag">✦ Client Love</span>
+          <h2 class="section-title">What Our Clients Say</h2>
+          <div class="gold-line center"></div>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal">
+            <div class="quote-mark">"</div>
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              Absolutely loved my experience at Palak's Magic Studio! The team
+              is so talented and welcoming. My hair looks amazing and I get
+              compliments everywhere I go.
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">PR</div>
+              <div>
+                <div class="reviewer-name">Palak's Magic</div>
+                <div class="reviewer-tag">Hair Colouring Client</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal">
+            <div class="quote-mark">"</div>
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              Got my bridal makeup done here and it was perfect! They understood
+              exactly what I wanted. The whole team made my special day even
+              more beautiful.
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">AS</div>
+              <div>
+                <div class="reviewer-name">Ananya Singh</div>
+                <div class="reviewer-tag">surya pratap singh</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card reveal">
+            <div class="quote-mark">"</div>
+            <div class="stars">★★★★★</div>
+            <p class="testimonial-text">
+              Best facial I've ever had! The skin specialist at Palak's Magic Studio is genuinely
+              knowledgeable. My skin has never felt more hydrated and glowing.
+              Highly recommended!
+            </p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">NK</div>
+              <div>
+                <div class="reviewer-name">Neha Kapoor</div>
+                <div class="reviewer-tag">Skincare Client</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section id="booking">
+      <div class="booking-inner section-inner">
+       <div class="salon-header reveal">
+      Palak's Studio ✦
+    </div>
+        <span class="section-tag reveal">✦ Fast & Easy</span>
+        <h2 class="section-title reveal">Book on WhatsApp</h2>
+        <div class="gold-line reveal"></div>
+        <p class="booking-sub reveal">
+          Fill in your details and we'll confirm your appointment shortly.
+          Walk-ins also welcome!
+        </p>
+        <div class="booking-form reveal">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" placeholder="Full name" />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="Enter your phone number" />
+            </div>
+          </div>
+            <div class="form-group">
+              <label>Select Service</label>
+              <select>
+                <option value="">Choose a service...</option>
+                <option>Haircut & Styling</option>
+                <option>Makeup & Glam</option>
+                <option>Facial & Skincare</option>
+                <option>Nail Art & Manicure</option>
+                <option>Spa & Grooming</option>
+                <option>Bridal Package</option>
+                <option>Hair Colouring</option>
+                <option>Hair Treatment</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Additional Notes</label>
+            <textarea
+              placeholder="Any special requests or details..."
+            ></textarea>
+          </div>
+          <button class="submit-btn whatsapp-submit" onclick="handleBooking()">
+            Book Appointment on WhatsApp →
+          </button>
+          <p class="form-note">
+            We'll send a confirmation call or WhatsApp message within 30
+            minutes. ✦ preetam nagar prayagraj 9555693813
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-inner">
+        <span class="section-tag reveal">✦ Find Us</span>
+        <h2 class="section-title reveal">Get in Touch</h2>
+        <div class="gold-line reveal"></div>
+        <div class="contact-grid">
+          <div>
+            <div class="contact-info reveal">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-detail">
+                  <h4>Our Address</h4>
+                  <p>
+                    124/237 infront of Gurudwara Durga Puja Park Road preetam
+                    nagar prayagraj 9555693813<br />Prayagraj, Uttar Pradesh –
+                    211011<br />India
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-detail">
+                  <h4>Phone Number</h4>
+                  <p><a href="tel:9555693813">9555693813</a> — Tap to call</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🕐</div>
+                <div class="contact-detail">
+                  <h4>Working Hours</h4>
+                  <p>
+                    Mon – Sat: 10:00 AM – 8:00 PM<br />Sunday: 11:00 AM – 6:00
+                    PM
+                  </p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">💬</div>
+                <div class="contact-detail">
+                  <h4>WhatsApp</h4>
+                  <p>
+                    <a href="https://wa.me/9555693813" target="_blank"
+                      >Chat with us on WhatsApp</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div class="reveal">
+            <div class="map-container">
+           <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.5832801637275!2d81.77916927612218!3d25.45219192132393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399acda3eb4f4e31%3A0xbf5288039639022d!2sPalak%E2%80%99s%20Magic%20Makeup%20Studio%20Salon%20%26%20Academy!5e0!3m2!1sen!2sin!4v1776419722709!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+  width="100%"
+  height="450"
+  style="border:0;"
+  allowfullscreen
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  title="Google Map showing our store location"
+></iframe>
+            </div>
+            <div
+              style="
+                background: var(--white);
+                border: 1px solid rgba(201, 168, 76, 0.15);
+                border-radius: 2px;
+                padding: 1.5rem;
+                margin-top: 1rem;
+              "
+            >
+              <p
+                style="
+                  font-family: &quot;Arial&quot;, sans-serif;
+                  font-size: 0.8rem;
+                  color: var(--gray);
+                  margin-bottom: 1rem;
+                  letter-spacing: 0.3px;
+                "
+              >
+                ✦ Getting here from Prayagraj Junction — approx. 15 min by
+                auto-rickshaw via Civil Lines Road.
+              </p>
+              <a
+                href="https://maps.app.goo.gl/QQbRWGv1mdPPphrU7"
+                target="_blank"
+                style="
+                  display: inline-block;
+                  background: var(--gold);
+                  color: var(--black);
+                  padding: 0.55rem 1.2rem;
+                  border-radius: 2px;
+                  font-family: &quot;Arial&quot;, sans-serif;
+                  font-size: 0.75rem;
+                  letter-spacing: 2px;
+                  text-transform: uppercase;
+                  font-weight: 700;
+                  text-decoration: none;
+                "
+                >Get Directions →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="logo">
+              Palak's magic makeup studio salon & Academy<span
+                >Salon & Studio</span
+              >
+            </div>
+            <p>
+              A premier salon and studio infront of Gurudwara puja park Road
+              preetam nagar Prayagraj, dedicated to making every client look and
+              feel their most beautiful self.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://www.instagram.com/palaks_magic"
+                class="social-link"
+                title="Instagram"
+                >IG</a
+              >
+              <a href="#" class="social-link" title="Facebook">FB</a>
+              <a
+                href="https://wa.me/9555693813"
+                class="social-link"
+                title="WhatsApp"
+                >WA</a
+              >
+              <a href="tel:9555693813" class="social-link" title="Call Us">☎</a>
+            </div>
+            <div style="margin-top: 1rem;">
+              <p style="font-size: 0.85rem; margin-bottom: 0.5rem; color: #C9A84C; font-weight: 600;">Scan to Connect</p>
+              <div style="display: flex; gap: 10px;">
+                <img src="Pasted%20image.png" alt="Social QR Code 1" style="width: 70px; height: 70px; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+                <img src="insta.jpeg" alt="Social QR Code 2" style="width: 70px; height: 70px; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+                <img src="review.jpeg" alt="Social QR Code 3" style="width: 70px; height: 70px; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);" />
+              </div>
+            </div>
+          </div>
+          <div class="footer-links">
+            <h5>Quick Links</h5>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#instructions">Instructions</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#testimonials">Reviews</a></li>
+              <li><a href="#booking">Book Now</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h5>Services</h5>
+            <ul>
+              <li>
+                <a href="#services"
+                  >Palak's Signature BRIDAL Makeup - 15000/- Hd makeup Hairstyle
+                  Draping Lenses Lashes Nail extensions
+                </a>
+              </li>
+              <li><a href="#services">Makeup & Glam</a></li>
+              <li><a href="#services">Facial & Skincare</a></li>
+              <li><a href="#services">Nail Art</a></li>
+              <li><a href="#services">Bridal Packages</a></li>
+              <li><a href="#services">Hair Treatments</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © Palak's magic makeup studio salon & Academy – All rights reserved.
+            Prayagraj – 211011
+          </p>
+          <p
+            style="
+              color: rgba(201, 168, 76, 0.4);
+              font-family: &quot;Arial&quot;, sans-serif;
+              font-size: 0.7rem;
+            "
+          >
+            ✦ Style · Beauty · Confidence
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT -->
+    <div class="whatsapp-float">
+      <div class="whatsapp-label">Chat with us!</div>
+      <a
+        href="https://wa.me/9555693813"
+        target="_blank"
+        class="whatsapp-btn"
+        title="Chat on WhatsApp"
+      >
+        <svg
+          viewBox="0 0 24 24"
+          fill="white"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+          />
+        </svg>
+      </a>
+    </div>
+  </body>
+  <script src="java.js"></script>
+</html>
